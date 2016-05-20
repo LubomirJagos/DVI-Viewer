@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for F in *.*gf;
+do gftopk $F ${F%.2602gf}.pk;
+done
